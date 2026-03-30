@@ -1067,6 +1067,7 @@ export default function Demoone() {
           .statItem:nth-child(2){ border-right:none; }
           .archive__grid { grid-template-columns:repeat(2,1fr); gap:8px; }
           .igBadge { font-size:12px; padding:8px 14px; }
+         
         }
 
         
@@ -1074,10 +1075,10 @@ export default function Demoone() {
         @media(max-width:480px){
           .navbar { top:10px; padding:10px 16px; }
           .navbar__logo { font-size:11px; letter-spacing:2px; }
-          .heroText__h1 { font-size:clamp(32px,10vw,48px); }
+          .heroText__h1 { font-size:clamp(32px,8vw,48px); }
           .heroText__actions { flex-direction:column; align-items:flex-start; }
-          .btn { width:100%; text-align:center; justify-content:center; display:block; }
-           .heroText__actions btn{width:50%;}
+          .btn { width:80%;text-align:center; justify-content:center; display:block; }
+        
           .stats { grid-template-columns:repeat(2,1fr); }
           .statItem { border-right:1px solid var(--border); padding:28px 12px; }
           .statItem:nth-child(2n){ border-right:none; }
