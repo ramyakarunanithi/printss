@@ -133,16 +133,16 @@ function ParticleField() {
    DATA
 ══════════════════════════════════════════════════════════════════════ */
 const IG_POSTS = [
-  { id: 1,  src: "src/assets/image6.jpg",  caption: "Custom figurine drop",       likes: "1.2k", tag: "FIGURINE"     },
-  { id: 2,  src: "src/assets/image9.jpg",  caption: "Architectural model series",  likes: "980",  tag: "ARCHITECTURE" },
-  { id: 3,  src: "src/assets/image5.jpg",  caption: "Neon lamp gift edition",      likes: "2.1k", tag: "DECOR"        },
-  { id: 4,  src: "src/assets/image4.jpg",  caption: "Geometric art piece",         likes: "856",  tag: "ART"          },
-  { id: 5,  src: "src/assets/image2.jpg",  caption: "Cleat prototype v2",          likes: "3.4k", tag: "COLLAB"       },
-  { id: 6,  src: "src/assets/iimage5.jpg", caption: "Personalised keychains",      likes: "770",  tag: "GIFTS"        },
-  { id: 7,  src: "src/assets/image3.jpg",  caption: "Abstract desk sculpture",     likes: "1.5k", tag: "DECOR"        },
-  { id: 8,  src: "src/assets/image.jpg",   caption: "Miniature city model",        likes: "2.8k", tag: "ARCHITECTURE" },
-  { id: 9,  src: "src/assets/image8.jpg",  caption: "Gradient resin finish",       likes: "1.1k", tag: "ART"          },
-  { id: 10, src: "src/assets/image10.jpg", caption: "Gradient resin finish",       likes: "1.1k", tag: "ART"          },
+  { id: 1,  src: "public/Images/image6.jpg",  caption: "Custom figurine drop",       likes: "1.2k", tag: "FIGURINE"     },
+  { id: 2,  src: "public/Images/image9.jpg",  caption: "Architectural model series",  likes: "980",  tag: "ARCHITECTURE" },
+  { id: 3,  src: "public/Images/image5.jpg",  caption: "Neon lamp gift edition",      likes: "2.1k", tag: "DECOR"        },
+  { id: 4,  src: "public/Images/image4.jpg",  caption: "Geometric art piece",         likes: "856",  tag: "ART"          },
+  { id: 5,  src: "public/Images/image2.jpg",  caption: "Cleat prototype v2",          likes: "3.4k", tag: "COLLAB"       },
+  { id: 6,  src: "public/Images/image11.jpg", caption: "Personalised keychains",      likes: "770",  tag: "GIFTS"        },
+  { id: 7,  src: "public/Images/image3.jpg",  caption: "Abstract desk sculpture",     likes: "1.5k", tag: "DECOR"        },
+  { id: 8,  src: "public/Images/image.jpg",   caption: "Miniature city model",        likes: "2.8k", tag: "ARCHITECTURE" },
+  { id: 9,  src: "public/Images/image8.jpg",  caption: "Gradient resin finish",       likes: "1.1k", tag: "ART"          },
+  { id: 10, src: "public/Images/image10.jpg", caption: "Gradient resin finish",       likes: "1.1k", tag: "ART"          },
 ];
 
 const STATS = [
