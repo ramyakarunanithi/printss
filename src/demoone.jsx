@@ -884,7 +884,8 @@ export default function Demoone() {
         .btn--white:hover{box-shadow:0 8px 40px rgba(255,255,255,.25);}
         .hero__scroll{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px;font-size:10px;letter-spacing:4px;color:var(--muted);opacity:0;animation:fadeUp .8s 1.6s forwards;font-family:var(--ff-body);}
         .scrollLine{width:1px;height:44px;background:linear-gradient(to bottom,transparent,var(--accent));animation:scrollPulse 2s ease-in-out infinite;}
-        @keyframes scrollPulse{0%,100%{opacity:.4;transform:scaleY(.7);}50%{opacity:1;transform:scaleY(1);}}
+        @keyframes scrollPulse{0%,100%{opacity:.4;transform:scaleY(.7);}50%{opacity:1;transform:scaleY(1);}
+        }
 
         /* ── Ticker ── */
         .ticker{padding:16px 0;background:var(--accent);overflow:hidden;white-space:nowrap;}
@@ -1068,6 +1069,7 @@ export default function Demoone() {
           .igBadge { font-size:12px; padding:8px 14px; }
         }
 
+        
         /* ── Small Mobile: 480px ── */
         @media(max-width:480px){
           .navbar { top:10px; padding:10px 16px; }
@@ -1075,6 +1077,7 @@ export default function Demoone() {
           .heroText__h1 { font-size:clamp(32px,10vw,48px); }
           .heroText__actions { flex-direction:column; align-items:flex-start; }
           .btn { width:100%; text-align:center; justify-content:center; display:block; }
+           .heroText__actions btn{width:50%;}
           .stats { grid-template-columns:repeat(2,1fr); }
           .statItem { border-right:1px solid var(--border); padding:28px 12px; }
           .statItem:nth-child(2n){ border-right:none; }
